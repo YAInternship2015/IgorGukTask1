@@ -29,6 +29,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIEdgeInsets inset = UIEdgeInsetsMake(20, 0, 0, 0);
+    
+    self.tableView.contentInset = inset;
+    self.tableView.scrollIndicatorInsets = inset;
+    
     self.name = @[@"1. Yalantis-Man",
                   @"2. Superman",
                   @"3. Spider-Man",
