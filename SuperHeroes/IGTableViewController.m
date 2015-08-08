@@ -40,6 +40,17 @@
                   @"9. Hellboy",
                   @"10. Hulk",];
     
+    self.images = @[@"Yalantis2.png",
+                    @"superman1.jpg",
+                    @"spider-man1.jpg",
+                    @"santa1.png",
+                    @"batman1.jpg",
+                    @"robocop1.jpg",
+                    @"harry potter1.jpg",
+                    @"Terminator1.jpg",
+                    @"hellboy1.jpg",
+                    @"hulk1.jpg",];
+    
 }
 
 #pragma mark - Table view data source
