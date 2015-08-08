@@ -21,6 +21,7 @@
 		B278E89B1B754F4D00775713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B278E8991B754F4D00775713 /* InfoPlist.strings */; };
 		B278E89D1B754F4D00775713 /* SuperHeroesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B278E89C1B754F4D00775713 /* SuperHeroesTests.m */; };
 		B278E8A81B7550F600775713 /* IGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B278E8A71B7550F600775713 /* IGTableViewController.m */; };
+		B278E8C11B756E8B00775713 /* IGTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B278E8C01B756E8B00775713 /* IGTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B278E89C1B754F4D00775713 /* SuperHeroesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroesTests.m; sourceTree = "<group>"; };
 		B278E8A61B7550F600775713 /* IGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTableViewController.h; sourceTree = "<group>"; };
 		B278E8A71B7550F600775713 /* IGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTableViewController.m; sourceTree = "<group>"; };
+		B278E8BF1B756E8B00775713 /* IGTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTableCell.h; sourceTree = "<group>"; };
+		B278E8C01B756E8B00775713 /* IGTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B278E8801B754F4C00775713 /* IGAppDelegate.h */,
 				B278E8811B754F4C00775713 /* IGAppDelegate.m */,
 				B278E8831B754F4C00775713 /* Main.storyboard */,
+				B278E8BF1B756E8B00775713 /* IGTableCell.h */,
+				B278E8C01B756E8B00775713 /* IGTableCell.m */,
 				B278E8A61B7550F600775713 /* IGTableViewController.h */,
 				B278E8A71B7550F600775713 /* IGTableViewController.m */,
 				B278E8891B754F4C00775713 /* Images.xcassets */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B278E8C11B756E8B00775713 /* IGTableCell.m in Sources */,
 				B278E8A81B7550F600775713 /* IGTableViewController.m in Sources */,
 				B278E8821B754F4C00775713 /* IGAppDelegate.m in Sources */,
 				B278E87E1B754F4C00775713 /* main.m in Sources */,
@@ -465,6 +471,7 @@
 				B278E8A21B754F4D00775713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B278E8A31B754F4D00775713 /* Build configuration list for PBXNativeTarget "SuperHeroesTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				B278E8A51B754F4D00775713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
