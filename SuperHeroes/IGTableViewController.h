@@ -10,7 +10,4 @@
 
 @interface IGTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSArray *images;
-@property (nonatomic, strong) NSArray *name;
-
 @end
