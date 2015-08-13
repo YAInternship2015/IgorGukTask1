@@ -10,31 +10,31 @@
 	<string>SuperHeroes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D59FC7C9-68CB-40B4-97AA-96C5121290B3</key>
-		<string>https://github.com/YAInternship2015/IgorGukTask1.git</string>
+		<key>08E089A3DC07DE0B2FACAB9BEAC692F83CB2B3A6</key>
+		<string>github.com:YAInternship2015/IgorGukTask1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SuperHeroes.xcodeproj/project.xcworkspace</string>
+	<string>SuperHeroes.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D59FC7C9-68CB-40B4-97AA-96C5121290B3</key>
+		<key>08E089A3DC07DE0B2FACAB9BEAC692F83CB2B3A6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/YAInternship2015/IgorGukTask1.git</string>
+	<string>github.com:YAInternship2015/IgorGukTask1.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D59FC7C9-68CB-40B4-97AA-96C5121290B3</string>
+	<string>08E089A3DC07DE0B2FACAB9BEAC692F83CB2B3A6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D59FC7C9-68CB-40B4-97AA-96C5121290B3</string>
+			<string>08E089A3DC07DE0B2FACAB9BEAC692F83CB2B3A6</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SuperHeroes</string>
+			<string>IgorGukTask1</string>
 		</dict>
 	</array>
 </dict>
