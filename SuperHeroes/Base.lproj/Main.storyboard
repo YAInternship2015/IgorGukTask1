@@ -20,11 +20,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J74-VP-zoc">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J74-VP-zoc">
                                             <rect key="frame" x="0.0" y="0.0" width="135" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="135" id="anJ-Lk-7nj"/>
+                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6J-Sh-BDf">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6J-Sh-BDf">
                                             <rect key="frame" x="143" y="20" width="157" height="39"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -32,10 +35,19 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="b6J-Sh-BDf" firstAttribute="top" secondItem="gbP-X0-jPN" secondAttribute="top" constant="20" symbolic="YES" id="4CO-bg-wSI"/>
+                                        <constraint firstItem="J74-VP-zoc" firstAttribute="top" secondItem="gbP-X0-jPN" secondAttribute="top" id="4JW-sm-S4y"/>
+                                        <constraint firstItem="J74-VP-zoc" firstAttribute="leading" secondItem="gbP-X0-jPN" secondAttribute="leading" id="551-yP-fcX"/>
+                                        <constraint firstAttribute="bottom" secondItem="b6J-Sh-BDf" secondAttribute="bottom" constant="20" symbolic="YES" id="9FH-Tc-aLE"/>
+                                        <constraint firstAttribute="trailing" secondItem="b6J-Sh-BDf" secondAttribute="trailing" constant="20" symbolic="YES" id="QQh-FH-iOO"/>
+                                        <constraint firstAttribute="bottom" secondItem="J74-VP-zoc" secondAttribute="bottom" constant="-1" id="mRx-S5-Ehf"/>
+                                        <constraint firstItem="b6J-Sh-BDf" firstAttribute="leading" secondItem="J74-VP-zoc" secondAttribute="trailing" constant="8" symbolic="YES" id="nzO-HJ-qVU"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="nameLabel" destination="b6J-Sh-BDf" id="VSE-VD-BfF"/>
-                                    <outlet property="thumbImage" destination="J74-VP-zoc" id="nNT-OP-agE"/>
+                                    <outlet property="nameLabel" destination="b6J-Sh-BDf" id="0Qi-Kb-7KB"/>
+                                    <outlet property="thumbImage" destination="J74-VP-zoc" id="gla-QP-jUy"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

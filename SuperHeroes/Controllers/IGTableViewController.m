@@ -27,23 +27,19 @@
     self.tableView.scrollIndicatorInsets = inset;
     
     self.hero = [[IGHeroDataSource alloc] init];
-    
 }
 
 #pragma mark - TableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
     return self.hero.nameArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     static NSString *cellIdentifaer = @"TableCell";
     
     IGTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifaer forIndexPath:indexPath];
@@ -57,7 +53,6 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    
     return @"RATING SUPER HEROES";
 }
 
