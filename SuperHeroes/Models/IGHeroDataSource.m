@@ -8,37 +8,38 @@
 
 #import "IGHeroDataSource.h"
 
+@interface IGHeroDataSource ()
+
+@property (nonatomic, strong) NSArray *heroArray;
+
+@end
+
 @implementation IGHeroDataSource
 
 - (id)init {
     self = [super init];
     if (self) {
-        
-        self.nameArray = @[@"1. Yalantis-Man",
-                           @"2. Superman",
-                           @"3. Spider-Man",
-                           @"4. Santa",
-                           @"5. Batman",
-                           @"6. Robocop",
-                           @"7. Harry Potter",
-                           @"8. Terminator",
-                           @"9. Hellboy",
-                           @"10. Hulk",];
-        
-        self.imageArray = @[@"Yalantis2.png",
-                            @"superman1.jpg",
-                            @"spider-man1.jpg",
-                            @"santa1.png",
-                            @"batman1.jpg",
-                            @"robocop1.jpg",
-                            @"harry potter1.jpg",
-                            @"Terminator1.jpg",
-                            @"hellboy1.jpg",
-                            @"hulk1.jpg",];
-        
-        
+        self.heroArray = [NSArray arrayWithObjects:
+                          [[IGHero alloc] initWithString:@"1. Yalantis-Man" andImageName:@"Yalantis2.png"],
+                          [[IGHero alloc] initWithString:@"2. Superman"     andImageName:@"superman1.png"],
+                          [[IGHero alloc] initWithString:@"3. Spider-Man"   andImageName:@"spider-man1.png"],
+                          [[IGHero alloc] initWithString:@"4. Santa"        andImageName:@"santa1.png"],
+                          [[IGHero alloc] initWithString:@"5. Batman"       andImageName:@"batman1.png"],
+                          [[IGHero alloc] initWithString:@"6. Robocop"      andImageName:@"robocop1.png"],
+                          [[IGHero alloc] initWithString:@"7. Harry Potter" andImageName:@"harry potter1.png"],
+                          [[IGHero alloc] initWithString:@"8. Terminator"   andImageName:@"Terminator1.png"],
+                          [[IGHero alloc] initWithString:@"9. Hellboy"      andImageName:@"hellboy1.png"],
+                          [[IGHero alloc] initWithString:@"10. Hulk"        andImageName:@"hulk1.png"], nil];
     }
     return self;
+}
+
+- (IGHero *)heroAtIndex:(NSInteger)index {
+    return [self.heroArray objectAtIndex:index];
+}
+
+- (NSInteger)countOfHeroes {
+    return [self.heroArray count];
 }
 
 @end

@@ -8,6 +8,18 @@
 
 #import "IGTableCell.h"
 
+@interface IGTableCell ()
+
+@property (nonatomic, weak) IBOutlet UILabel *nameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *thumbImage;
+
+@end
+
 @implementation IGTableCell
+
+- (void)setupWithHero:(IGHero *)hero {
+    self.nameLabel.text = hero.name;
+    self.thumbImage.image = [UIImage imageNamed:hero.image];
+}
 
 @end

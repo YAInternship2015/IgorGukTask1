@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IGHero.h"
 
 @interface IGTableCell : UITableViewCell
 
-@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
-@property (nonatomic, strong) IBOutlet UIImageView *thumbImage;
+- (void)setupWithHero:(IGHero *)hero;
 
 @end

@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B23F4D071B83C8B600DED74F /* IGHero.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F4D061B83C8B600DED74F /* IGHero.m */; };
 		B249FE221B809F2C008FD3CD /* IGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B249FE211B809F2C008FD3CD /* IGTableViewController.m */; };
 		B249FE261B809F39008FD3CD /* IGHeroDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B249FE251B809F39008FD3CD /* IGHeroDataSource.m */; };
 		B249FE2A1B809F43008FD3CD /* IGTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B249FE291B809F43008FD3CD /* IGTableCell.m */; };
-		B249FE361B809FBE008FD3CD /* batman1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE2C1B809FBE008FD3CD /* batman1.jpg */; };
-		B249FE371B809FBE008FD3CD /* harry potter1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE2D1B809FBE008FD3CD /* harry potter1.jpg */; };
-		B249FE381B809FBE008FD3CD /* hellboy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE2E1B809FBE008FD3CD /* hellboy1.jpg */; };
-		B249FE391B809FBE008FD3CD /* hulk1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE2F1B809FBE008FD3CD /* hulk1.jpg */; };
-		B249FE3A1B809FBE008FD3CD /* robocop1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE301B809FBE008FD3CD /* robocop1.jpg */; };
-		B249FE3B1B809FBE008FD3CD /* santa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE311B809FBE008FD3CD /* santa1.jpg */; };
-		B249FE3C1B809FBE008FD3CD /* spider-man1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE321B809FBE008FD3CD /* spider-man1.jpg */; };
-		B249FE3D1B809FBE008FD3CD /* superman1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE331B809FBE008FD3CD /* superman1.jpg */; };
-		B249FE3E1B809FBE008FD3CD /* Terminator1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE341B809FBE008FD3CD /* Terminator1.jpg */; };
-		B249FE3F1B809FBE008FD3CD /* Yalantis2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B249FE351B809FBE008FD3CD /* Yalantis2.jpg */; };
+		B26D23541B89DE99007CBF40 /* batman1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234A1B89DE99007CBF40 /* batman1.png */; };
+		B26D23551B89DE99007CBF40 /* harry potter1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234B1B89DE99007CBF40 /* harry potter1.png */; };
+		B26D23561B89DE99007CBF40 /* hellboy1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234C1B89DE99007CBF40 /* hellboy1.png */; };
+		B26D23571B89DE99007CBF40 /* hulk1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234D1B89DE99007CBF40 /* hulk1.png */; };
+		B26D23581B89DE99007CBF40 /* robocop1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234E1B89DE99007CBF40 /* robocop1.png */; };
+		B26D23591B89DE99007CBF40 /* santa1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D234F1B89DE99007CBF40 /* santa1.png */; };
+		B26D235A1B89DE99007CBF40 /* spider-man1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23501B89DE99007CBF40 /* spider-man1.png */; };
+		B26D235B1B89DE99007CBF40 /* superman1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23511B89DE99007CBF40 /* superman1.png */; };
+		B26D235C1B89DE99007CBF40 /* Terminator1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23521B89DE99007CBF40 /* Terminator1.png */; };
+		B26D235D1B89DE99007CBF40 /* Yalantis2.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23531B89DE99007CBF40 /* Yalantis2.png */; };
 		B278E8721B754F4C00775713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8711B754F4C00775713 /* Foundation.framework */; };
 		B278E8741B754F4C00775713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8731B754F4C00775713 /* CoreGraphics.framework */; };
 		B278E8761B754F4C00775713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8751B754F4C00775713 /* UIKit.framework */; };
@@ -46,22 +47,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B23F4D051B83C8B600DED74F /* IGHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHero.h; sourceTree = "<group>"; };
+		B23F4D061B83C8B600DED74F /* IGHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHero.m; sourceTree = "<group>"; };
 		B249FE201B809F2C008FD3CD /* IGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTableViewController.h; sourceTree = "<group>"; };
 		B249FE211B809F2C008FD3CD /* IGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTableViewController.m; sourceTree = "<group>"; };
 		B249FE241B809F39008FD3CD /* IGHeroDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHeroDataSource.h; sourceTree = "<group>"; };
 		B249FE251B809F39008FD3CD /* IGHeroDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHeroDataSource.m; sourceTree = "<group>"; };
 		B249FE281B809F43008FD3CD /* IGTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTableCell.h; sourceTree = "<group>"; };
 		B249FE291B809F43008FD3CD /* IGTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTableCell.m; sourceTree = "<group>"; };
-		B249FE2C1B809FBE008FD3CD /* batman1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman1.jpg; sourceTree = "<group>"; };
-		B249FE2D1B809FBE008FD3CD /* harry potter1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harry potter1.jpg"; sourceTree = "<group>"; };
-		B249FE2E1B809FBE008FD3CD /* hellboy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hellboy1.jpg; sourceTree = "<group>"; };
-		B249FE2F1B809FBE008FD3CD /* hulk1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulk1.jpg; sourceTree = "<group>"; };
-		B249FE301B809FBE008FD3CD /* robocop1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robocop1.jpg; sourceTree = "<group>"; };
-		B249FE311B809FBE008FD3CD /* santa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa1.jpg; sourceTree = "<group>"; };
-		B249FE321B809FBE008FD3CD /* spider-man1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spider-man1.jpg"; sourceTree = "<group>"; };
-		B249FE331B809FBE008FD3CD /* superman1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superman1.jpg; sourceTree = "<group>"; };
-		B249FE341B809FBE008FD3CD /* Terminator1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terminator1.jpg; sourceTree = "<group>"; };
-		B249FE351B809FBE008FD3CD /* Yalantis2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yalantis2.jpg; sourceTree = "<group>"; };
+		B26D234A1B89DE99007CBF40 /* batman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman1.png; sourceTree = "<group>"; };
+		B26D234B1B89DE99007CBF40 /* harry potter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "harry potter1.png"; sourceTree = "<group>"; };
+		B26D234C1B89DE99007CBF40 /* hellboy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hellboy1.png; sourceTree = "<group>"; };
+		B26D234D1B89DE99007CBF40 /* hulk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulk1.png; sourceTree = "<group>"; };
+		B26D234E1B89DE99007CBF40 /* robocop1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robocop1.png; sourceTree = "<group>"; };
+		B26D234F1B89DE99007CBF40 /* santa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa1.png; sourceTree = "<group>"; };
+		B26D23501B89DE99007CBF40 /* spider-man1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spider-man1.png"; sourceTree = "<group>"; };
+		B26D23511B89DE99007CBF40 /* superman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman1.png; sourceTree = "<group>"; };
+		B26D23521B89DE99007CBF40 /* Terminator1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Terminator1.png; sourceTree = "<group>"; };
+		B26D23531B89DE99007CBF40 /* Yalantis2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yalantis2.png; sourceTree = "<group>"; };
 		B278E86E1B754F4C00775713 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B278E8711B754F4C00775713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B278E8731B754F4C00775713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 			children = (
 				B249FE241B809F39008FD3CD /* IGHeroDataSource.h */,
 				B249FE251B809F39008FD3CD /* IGHeroDataSource.m */,
+				B23F4D051B83C8B600DED74F /* IGHero.h */,
+				B23F4D061B83C8B600DED74F /* IGHero.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,22 +137,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B249FE2B1B809FBE008FD3CD /* Resources */ = {
+		B26D23491B89DE99007CBF40 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B249FE2C1B809FBE008FD3CD /* batman1.jpg */,
-				B249FE2D1B809FBE008FD3CD /* harry potter1.jpg */,
-				B249FE2E1B809FBE008FD3CD /* hellboy1.jpg */,
-				B249FE2F1B809FBE008FD3CD /* hulk1.jpg */,
-				B249FE301B809FBE008FD3CD /* robocop1.jpg */,
-				B249FE311B809FBE008FD3CD /* santa1.jpg */,
-				B249FE321B809FBE008FD3CD /* spider-man1.jpg */,
-				B249FE331B809FBE008FD3CD /* superman1.jpg */,
-				B249FE341B809FBE008FD3CD /* Terminator1.jpg */,
-				B249FE351B809FBE008FD3CD /* Yalantis2.jpg */,
+				B26D234A1B89DE99007CBF40 /* batman1.png */,
+				B26D234B1B89DE99007CBF40 /* harry potter1.png */,
+				B26D234C1B89DE99007CBF40 /* hellboy1.png */,
+				B26D234D1B89DE99007CBF40 /* hulk1.png */,
+				B26D234E1B89DE99007CBF40 /* robocop1.png */,
+				B26D234F1B89DE99007CBF40 /* santa1.png */,
+				B26D23501B89DE99007CBF40 /* spider-man1.png */,
+				B26D23511B89DE99007CBF40 /* superman1.png */,
+				B26D23521B89DE99007CBF40 /* Terminator1.png */,
+				B26D23531B89DE99007CBF40 /* Yalantis2.png */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
+			name = Resources;
+			path = SuperHeroes/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		B278E8651B754F4C00775713 = {
 			isa = PBXGroup;
@@ -187,9 +193,9 @@
 				B249FE231B809F39008FD3CD /* Models */,
 				B249FE271B809F43008FD3CD /* Views */,
 				B249FE1F1B809F2C008FD3CD /* Controllers */,
+				B26D23491B89DE99007CBF40 /* Resources */,
 				B278E8831B754F4C00775713 /* Main.storyboard */,
 				B278E8891B754F4C00775713 /* Images.xcassets */,
-				B249FE2B1B809FBE008FD3CD /* Resources */,
 				B278E8781B754F4C00775713 /* Supporting Files */,
 			);
 			path = SuperHeroes;
@@ -301,19 +307,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B249FE371B809FBE008FD3CD /* harry potter1.jpg in Resources */,
-				B249FE361B809FBE008FD3CD /* batman1.jpg in Resources */,
+				B26D23551B89DE99007CBF40 /* harry potter1.png in Resources */,
 				B278E88A1B754F4C00775713 /* Images.xcassets in Resources */,
-				B249FE391B809FBE008FD3CD /* hulk1.jpg in Resources */,
+				B26D23571B89DE99007CBF40 /* hulk1.png in Resources */,
 				B278E87C1B754F4C00775713 /* InfoPlist.strings in Resources */,
+				B26D235C1B89DE99007CBF40 /* Terminator1.png in Resources */,
+				B26D23581B89DE99007CBF40 /* robocop1.png in Resources */,
+				B26D235A1B89DE99007CBF40 /* spider-man1.png in Resources */,
+				B26D23561B89DE99007CBF40 /* hellboy1.png in Resources */,
+				B26D23541B89DE99007CBF40 /* batman1.png in Resources */,
+				B26D235B1B89DE99007CBF40 /* superman1.png in Resources */,
+				B26D235D1B89DE99007CBF40 /* Yalantis2.png in Resources */,
+				B26D23591B89DE99007CBF40 /* santa1.png in Resources */,
 				B278E8851B754F4C00775713 /* Main.storyboard in Resources */,
-				B249FE381B809FBE008FD3CD /* hellboy1.jpg in Resources */,
-				B249FE3E1B809FBE008FD3CD /* Terminator1.jpg in Resources */,
-				B249FE3A1B809FBE008FD3CD /* robocop1.jpg in Resources */,
-				B249FE3C1B809FBE008FD3CD /* spider-man1.jpg in Resources */,
-				B249FE3B1B809FBE008FD3CD /* santa1.jpg in Resources */,
-				B249FE3D1B809FBE008FD3CD /* superman1.jpg in Resources */,
-				B249FE3F1B809FBE008FD3CD /* Yalantis2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +343,7 @@
 				B278E8821B754F4C00775713 /* IGAppDelegate.m in Sources */,
 				B249FE221B809F2C008FD3CD /* IGTableViewController.m in Sources */,
 				B278E87E1B754F4C00775713 /* main.m in Sources */,
+				B23F4D071B83C8B600DED74F /* IGHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperHeroes/SuperHeroes-Prefix.pch";
 				INFOPLIST_FILE = "SuperHeroes/SuperHeroes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -477,6 +485,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperHeroes/SuperHeroes-Prefix.pch";
 				INFOPLIST_FILE = "SuperHeroes/SuperHeroes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -498,6 +507,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SuperHeroesTests/SuperHeroesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -516,6 +526,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperHeroes/SuperHeroes-Prefix.pch";
 				INFOPLIST_FILE = "SuperHeroesTests/SuperHeroesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "IGHero.h"
 
 @interface IGHeroDataSource : NSObject
 
-@property (nonatomic, strong) NSArray *nameArray;
-@property (nonatomic, strong) NSArray *imageArray;
+- (IGHero *)heroAtIndex:(NSInteger)index;
+- (NSInteger)countOfHeroes;
 
 @end

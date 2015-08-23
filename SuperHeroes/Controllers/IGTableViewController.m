@@ -20,7 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     UIEdgeInsets inset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     self.tableView.contentInset = inset;
@@ -36,19 +35,15 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.hero.nameArray.count;
+    return [self.hero countOfHeroes];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifaer = @"TableCell";
     
     IGTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifaer forIndexPath:indexPath];
-    
     NSInteger row = [indexPath row];
-    
-    cell.nameLabel.text = [self.hero.nameArray objectAtIndex:row];;
-    cell.thumbImage.image = [UIImage imageNamed:self.hero.imageArray[row]];
-    
+    [cell setupWithHero:[self.hero heroAtIndex:row]];
     return cell;
 }
 
