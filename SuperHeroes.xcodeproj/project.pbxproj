@@ -21,6 +21,8 @@
 		B26D235B1B89DE99007CBF40 /* superman1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23511B89DE99007CBF40 /* superman1.png */; };
 		B26D235C1B89DE99007CBF40 /* Terminator1.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23521B89DE99007CBF40 /* Terminator1.png */; };
 		B26D235D1B89DE99007CBF40 /* Yalantis2.png in Resources */ = {isa = PBXBuildFile; fileRef = B26D23531B89DE99007CBF40 /* Yalantis2.png */; };
+		B26D23631B8A02CF007CBF40 /* IGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D23621B8A02CF007CBF40 /* IGCollectionViewController.m */; };
+		B26D23661B8A062F007CBF40 /* IGCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D23651B8A062F007CBF40 /* IGCollectionCell.m */; };
 		B278E8721B754F4C00775713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8711B754F4C00775713 /* Foundation.framework */; };
 		B278E8741B754F4C00775713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8731B754F4C00775713 /* CoreGraphics.framework */; };
 		B278E8761B754F4C00775713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8751B754F4C00775713 /* UIKit.framework */; };
@@ -65,6 +67,10 @@
 		B26D23511B89DE99007CBF40 /* superman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman1.png; sourceTree = "<group>"; };
 		B26D23521B89DE99007CBF40 /* Terminator1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Terminator1.png; sourceTree = "<group>"; };
 		B26D23531B89DE99007CBF40 /* Yalantis2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yalantis2.png; sourceTree = "<group>"; };
+		B26D23611B8A02CF007CBF40 /* IGCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCollectionViewController.h; sourceTree = "<group>"; };
+		B26D23621B8A02CF007CBF40 /* IGCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCollectionViewController.m; sourceTree = "<group>"; };
+		B26D23641B8A062F007CBF40 /* IGCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCollectionCell.h; sourceTree = "<group>"; };
+		B26D23651B8A062F007CBF40 /* IGCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCollectionCell.m; sourceTree = "<group>"; };
 		B278E86E1B754F4C00775713 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B278E8711B754F4C00775713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B278E8731B754F4C00775713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +119,8 @@
 			children = (
 				B249FE201B809F2C008FD3CD /* IGTableViewController.h */,
 				B249FE211B809F2C008FD3CD /* IGTableViewController.m */,
+				B26D23611B8A02CF007CBF40 /* IGCollectionViewController.h */,
+				B26D23621B8A02CF007CBF40 /* IGCollectionViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -133,6 +141,8 @@
 			children = (
 				B249FE281B809F43008FD3CD /* IGTableCell.h */,
 				B249FE291B809F43008FD3CD /* IGTableCell.m */,
+				B26D23641B8A062F007CBF40 /* IGCollectionCell.h */,
+				B26D23651B8A062F007CBF40 /* IGCollectionCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,8 +349,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B249FE2A1B809F43008FD3CD /* IGTableCell.m in Sources */,
+				B26D23661B8A062F007CBF40 /* IGCollectionCell.m in Sources */,
 				B249FE261B809F39008FD3CD /* IGHeroDataSource.m in Sources */,
 				B278E8821B754F4C00775713 /* IGAppDelegate.m in Sources */,
+				B26D23631B8A02CF007CBF40 /* IGCollectionViewController.m in Sources */,
 				B249FE221B809F2C008FD3CD /* IGTableViewController.m in Sources */,
 				B278E87E1B754F4C00775713 /* main.m in Sources */,
 				B23F4D071B83C8B600DED74F /* IGHero.m in Sources */,

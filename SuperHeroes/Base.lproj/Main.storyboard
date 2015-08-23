@@ -59,7 +59,56 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NsW-KA-0os" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="72" y="-3"/>
+            <point key="canvasLocation" x="-247" y="-57"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="43c-Y1-xjc">
+            <objects>
+                <collectionViewController autoresizesArchivedViewToFullSize="NO" id="kS8-hR-1yz" customClass="IGCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="JBo-EI-Pbb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aPt-pV-4eW">
+                            <size key="itemSize" width="100" height="100"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="yEI-uL-oVr" customClass="IGCollectionCell">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eog-BU-79f">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="eog-BU-79f" firstAttribute="leading" secondItem="yEI-uL-oVr" secondAttribute="leading" id="E2u-1H-gHv"/>
+                                    <constraint firstItem="eog-BU-79f" firstAttribute="top" secondItem="yEI-uL-oVr" secondAttribute="top" id="KJl-fd-NOh"/>
+                                    <constraint firstAttribute="bottom" secondItem="eog-BU-79f" secondAttribute="bottom" id="dKe-zJ-wY4"/>
+                                    <constraint firstAttribute="trailing" secondItem="eog-BU-79f" secondAttribute="trailing" id="uga-Ib-lLf"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="heroImageView" destination="eog-BU-79f" id="l95-F7-l1B"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="kS8-hR-1yz" id="SiG-tN-FRJ"/>
+                            <outlet property="delegate" destination="kS8-hR-1yz" id="By0-8D-Gta"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mw8-DG-imQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="-59"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
