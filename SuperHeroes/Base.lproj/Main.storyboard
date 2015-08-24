@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="MLPostFactor V0.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pE6-8J-Tbm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="MLPostFactor V0.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="nQV-Mp-qsS">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="DLt-q6-0gh">
-            <objects>
-                <viewController id="yc1-fz-gCy" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fLY-WM-ncG"/>
-                        <viewControllerLayoutGuide type="bottom" id="aIr-o6-6We"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="arw-jZ-t3x">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MKy-sg-BV9">
-                                <rect key="frame" x="0.0" y="202" width="320" height="203"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="qnN-cY-K8J" kind="embed" id="Tkv-1T-rhQ"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TaY-eG-mUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1085" y="-1447"/>
-        </scene>
         <!--Table View Controller-->
         <scene sceneID="Ihk-yr-E74">
             <objects>
@@ -143,28 +115,9 @@
             <point key="canvasLocation" x="2325" y="417"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="rPv-Pp-pDE">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="qnN-cY-K8J" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cpD-Cq-hz7"/>
-                        <viewControllerLayoutGuide type="bottom" id="bX1-eA-qFI"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="C8c-k1-fIE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="203"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="633-0b-fRk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1594" y="-1447"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="39d-CB-aUu">
             <objects>
-                <viewController id="tfF-hc-ylm" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="tfF-hc-ylm" customClass="IGViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mri-fd-qsJ"/>
                         <viewControllerLayoutGuide type="bottom" id="34A-4v-Z11"/>
@@ -173,7 +126,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duw-K0-Q6y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duw-K0-Q6y">
                                 <rect key="frame" x="141" y="124" width="39" height="30"/>
                                 <state key="normal" title="Swap">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -182,8 +135,8 @@
                                     <action selector="swapButtonPressed:" destination="tfF-hc-ylm" eventType="touchUpInside" id="psn-En-taS"/>
                                 </connections>
                             </button>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X0F-Aa-5Km">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0F-Aa-5Km">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="mZL-Ur-ofc" kind="embed" identifier="embedContainer" id="YnA-Ke-XW5"/>
@@ -191,8 +144,22 @@
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="X0F-Aa-5Km" secondAttribute="bottom" id="GYO-q7-rNQ"/>
+                            <constraint firstItem="X0F-Aa-5Km" firstAttribute="centerX" secondItem="Duw-K0-Q6y" secondAttribute="centerX" id="OK0-eO-WPr"/>
+                            <constraint firstItem="X0F-Aa-5Km" firstAttribute="leading" secondItem="YME-lQ-4U5" secondAttribute="leading" id="f1r-yp-EBy"/>
+                            <constraint firstAttribute="trailing" secondItem="X0F-Aa-5Km" secondAttribute="trailing" id="gI0-23-9TW"/>
+                            <constraint firstItem="Duw-K0-Q6y" firstAttribute="top" secondItem="Mri-fd-qsJ" secondAttribute="bottom" constant="60" id="ldv-tW-4Mz"/>
+                            <constraint firstItem="X0F-Aa-5Km" firstAttribute="top" secondItem="Mri-fd-qsJ" secondAttribute="bottom" id="rZu-mp-ybg"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="p4M-4u-NoQ"/>
+                    <navigationItem key="navigationItem" id="p4M-4u-NoQ">
+                        <barButtonItem key="leftBarButtonItem" title="SWAP" id="bP8-lE-K9x">
+                            <connections>
+                                <action selector="swapBarButton:" destination="tfF-hc-ylm" id="EFg-oi-NNH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyr-YD-s0z" sceneMemberID="firstResponder"/>
             </objects>
@@ -201,7 +168,7 @@
         <!--Container View Controller-->
         <scene sceneID="hUB-tx-IKj">
             <objects>
-                <viewController id="mZL-Ur-ofc" customClass="ContainerViewController" sceneMemberID="viewController">
+                <viewController id="mZL-Ur-ofc" customClass="IGContainerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gZ5-hV-gnP"/>
                         <viewControllerLayoutGuide type="bottom" id="LhW-Q2-8wg"/>
@@ -216,6 +183,10 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <size key="freeformSize" width="280" height="150"/>
+                    <connections>
+                        <segue destination="pE6-8J-Tbm" kind="custom" identifier="embedFirst" customClass="IGEmptySegue" id="mEG-DU-jwB"/>
+                        <segue destination="kS8-hR-1yz" kind="custom" identifier="embedSecond" customClass="IGEmptySegue" id="4k9-MO-jxr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTl-2B-XOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

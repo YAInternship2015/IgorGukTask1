@@ -24,6 +24,7 @@
 		B252CC841B8B8901005E9AB6 /* Yalantis2.png in Resources */ = {isa = PBXBuildFile; fileRef = B252CC791B8B8901005E9AB6 /* Yalantis2.png */; };
 		B252CC871B8B9868005E9AB6 /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B252CC861B8B9868005E9AB6 /* IGViewController.m */; };
 		B252CC8A1B8B9895005E9AB6 /* IGContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B252CC891B8B9895005E9AB6 /* IGContainerViewController.m */; };
+		B252CC901B8BA85E005E9AB6 /* IGEmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B252CC8F1B8BA85E005E9AB6 /* IGEmptySegue.m */; };
 		B26D23631B8A02CF007CBF40 /* IGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D23621B8A02CF007CBF40 /* IGCollectionViewController.m */; };
 		B26D23661B8A062F007CBF40 /* IGCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D23651B8A062F007CBF40 /* IGCollectionCell.m */; };
 		B278E8721B754F4C00775713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B278E8711B754F4C00775713 /* Foundation.framework */; };
@@ -75,6 +76,8 @@
 		B252CC861B8B9868005E9AB6 /* IGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
 		B252CC881B8B9895005E9AB6 /* IGContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGContainerViewController.h; sourceTree = "<group>"; };
 		B252CC891B8B9895005E9AB6 /* IGContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGContainerViewController.m; sourceTree = "<group>"; };
+		B252CC8E1B8BA85E005E9AB6 /* IGEmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGEmptySegue.h; sourceTree = "<group>"; };
+		B252CC8F1B8BA85E005E9AB6 /* IGEmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGEmptySegue.m; sourceTree = "<group>"; };
 		B26D23611B8A02CF007CBF40 /* IGCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCollectionViewController.h; sourceTree = "<group>"; };
 		B26D23621B8A02CF007CBF40 /* IGCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCollectionViewController.m; sourceTree = "<group>"; };
 		B26D23641B8A062F007CBF40 /* IGCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCollectionCell.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				B249FE251B809F39008FD3CD /* IGHeroDataSource.m */,
 				B23F4D051B83C8B600DED74F /* IGHero.h */,
 				B23F4D061B83C8B600DED74F /* IGHero.m */,
+				B252CC8E1B8BA85E005E9AB6 /* IGEmptySegue.h */,
+				B252CC8F1B8BA85E005E9AB6 /* IGEmptySegue.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				B278E8821B754F4C00775713 /* IGAppDelegate.m in Sources */,
 				B26D23631B8A02CF007CBF40 /* IGCollectionViewController.m in Sources */,
 				B249FE221B809F2C008FD3CD /* IGTableViewController.m in Sources */,
+				B252CC901B8BA85E005E9AB6 /* IGEmptySegue.m in Sources */,
 				B278E87E1B754F4C00775713 /* main.m in Sources */,
 				B252CC8A1B8B9895005E9AB6 /* IGContainerViewController.m in Sources */,
 				B23F4D071B83C8B600DED74F /* IGHero.m in Sources */,

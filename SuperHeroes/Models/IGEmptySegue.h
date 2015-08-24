@@ -1,5 +1,5 @@
 //
-//  IGContainerViewController.h
+//  IGEmptySegue.h
 //  SuperHeroes
 //
 //  Created by Igor Guk on 24.08.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IGContainerViewController : UIViewController
-
-- (void)swapViewControllers;
+@interface IGEmptySegue : UIStoryboardSegue
 
 @end
